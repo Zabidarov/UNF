@@ -1,0 +1,9 @@
+*.log
+*.elf
+*.prm
+DumpLocation.txt
+.blocks/
+.settings/
+bin/
+.project
+.targets
