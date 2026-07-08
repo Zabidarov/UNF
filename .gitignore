@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.log
 *.elf
 *.prm
@@ -7,3 +8,18 @@ DumpLocation.txt
 bin/
 .project
 .targets
+=======
+# Временные файлы и файлы сборки 1С
+*.log
+*.err
+*.out
+*.tmp
+
+# Файлы пользовательских настроек
+СonfigDumpInfo.xml
+v8*.tmp
+
+# Служебные каталоги
+/build/
+/out/
+>>>>>>> 8545bba57c4c28c0e70f2ecce08594dab5798f7d
