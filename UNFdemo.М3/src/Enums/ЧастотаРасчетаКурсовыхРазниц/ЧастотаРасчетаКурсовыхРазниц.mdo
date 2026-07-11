@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c43eb22e-bd20-4cf0-a082-19257f1c439c" extendedConfigurationObject="175b6cd7-168a-4613-842e-40d4b34b6186">
+  <producedTypes>
+    <refType typeId="1f98b37e-e26f-4017-bab0-5247a362fbdf" valueTypeId="4b9a1278-dd02-4f77-a78e-7ce9aae6e8d7"/>
+    <listType typeId="db10e3bd-fc9c-4ab6-b631-f123165b18ce" valueTypeId="c4922fde-4843-416b-b451-532c4f39bf44"/>
+    <managerType typeId="624eea55-4a89-4594-926d-cb6191964a6e" valueTypeId="04a70546-0988-483d-841c-de2ff266d7c1"/>
+  </producedTypes>
+  <name>ЧастотаРасчетаКурсовыхРазниц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="ce1af8a5-1f86-430c-8b9f-7aa941b1eeb8" extendedConfigurationObject="7ce6ee62-1111-4137-99b3-6566be9f5906">
+    <name>ВМоментВыполненияОпераций</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="63a12711-c6fc-4fe1-b1fd-bfa66f259720" extendedConfigurationObject="5e729fdc-aed4-41f1-8612-b5eb0122fd0f">
+    <name>ТолькоПриЗакрытииПериода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

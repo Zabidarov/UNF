@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28cf66e8-8f36-4c13-a9a5-2a4eedd000e7">
+  <producedTypes>
+    <managerType typeId="66749764-b023-46c4-9d43-c773ab8ee5f9" valueTypeId="9c386dff-43b7-44a1-aafa-6554de50f1a1"/>
+    <valueManagerType typeId="1f7063bb-6d11-4462-942e-a0425b57311d" valueTypeId="0bc1e160-a70c-4586-b258-1f73798a72f1"/>
+    <valueKeyType typeId="4b4539a1-2daa-4649-be71-34f008feca9c" valueTypeId="23277a5f-98ab-4e48-8c38-55791efefe72"/>
+  </producedTypes>
+  <name>М3_ФункциональнаяОпцияПлановаяСебестоимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановая себестоимость</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыЦен</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

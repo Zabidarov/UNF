@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dabb0676-1790-483c-a339-8409841b1a66" extendedConfigurationObject="d07fe822-4285-4f2f-9381-c2ab125458b9">
+  <producedTypes>
+    <refType typeId="2327626c-a782-4fa5-a089-6b7afc28ca84" valueTypeId="83b0daef-ae79-4875-97ef-381af7207fd4"/>
+    <listType typeId="cba05449-c5d8-497f-8342-a436545720bd" valueTypeId="ba812d11-491c-4223-a9cb-04acc0e9981b"/>
+    <managerType typeId="036b1aa2-efb2-46e8-8762-9e8a8d8a1ead" valueTypeId="4f9e4050-4056-4c1f-a487-67224ad64783"/>
+  </producedTypes>
+  <name>ДаНет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="6e3b0f35-fe3b-4ca0-a9ed-26b8ba72c035" extendedConfigurationObject="31b92f93-2f85-437d-a3b9-2f73d8b94f9b">
+    <name>Нет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2f153013-6142-4d69-b1d5-2f5d87f9f30f" extendedConfigurationObject="f22528ef-23fb-491b-8d83-e81d10673dfc">
+    <name>Да</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

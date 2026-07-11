@@ -39,5 +39,14 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.РазделЗаблокирован</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияРазделов</commonPictures>
   <roles>Role.М3_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.М3_УправлениеФормойСервер</commonModules>
+  <constants>Constant.М3_ФункциональнаяОпцияПлановаяСебестоимость</constants>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <enums>Enum.ВидыКонтроляДоговоровПриПроведении</enums>
+  <enums>Enum.ДаНет</enums>
+  <enums>Enum.ЧастотаРасчетаКурсовыхРазниц</enums>
+  <dataProcessors>DataProcessor.НастройкаПрограммы</dataProcessors>
 </mdclass:Configuration>
