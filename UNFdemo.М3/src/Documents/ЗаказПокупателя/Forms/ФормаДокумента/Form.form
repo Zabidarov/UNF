@@ -3553,6 +3553,11 @@
                       <userVisible>
                         <common>true</common>
                       </userVisible>
+                      <handlers xsi:type="form:EventHandlerExtension">
+                        <event>OnChange</event>
+                        <name>М3_ЗапасыНоменклатураПриИзмененииПосле</name>
+                        <callType>After</callType>
+                      </handlers>
                       <extendedTooltip>
                         <name>ЗапасыНоменклатураРасширеннаяПодсказка</name>
                         <id>1663</id>
@@ -3654,6 +3659,11 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <handlers xsi:type="form:EventHandlerExtension">
+                      <event>OnChange</event>
+                      <name>М3_ЗапасыХарактеристикаПриИзмененииПосле</name>
+                      <callType>After</callType>
+                    </handlers>
                     <extendedTooltip>
                       <name>ЗапасыХарактеристикаРасширеннаяПодсказка</name>
                       <id>1666</id>
