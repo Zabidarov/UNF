@@ -39,14 +39,53 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <styleItems>StyleItem.ЦветШрифтаНаименованияПоля</styleItems>
+  <styleItems>StyleItem.ЦветГиперссылки</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <commonPictures>CommonPicture.РазделЗаблокирован</commonPictures>
   <commonPictures>CommonPicture.КоллекцияРазделов</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСБП</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовQR</commonPictures>
+  <commonPictures>CommonPicture.ВвестиКупон</commonPictures>
+  <commonPictures>CommonPicture.ПодчиненныеЭлементы</commonPictures>
+  <commonPictures>CommonPicture.СтатусыСерийНоменклатуры</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияФлаги</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияТелефонУНФ</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияЭлПочта</commonPictures>
+  <commonPictures>CommonPicture.ПредупреждениеБаннерЦветной16ВТакси</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ЛинияПоУмолчанию</commonPictures>
+  <commonPictures>CommonPicture.КОтгрузке</commonPictures>
+  <commonPictures>CommonPicture.КОплате</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетОтгружен</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетНеОтгружен</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетНеОтгруженСегодня</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетОтгрузкаПросрочена</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетОплачен</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетНеОплачен</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетНеОплаченСегодня</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетОплатаПросрочена</commonPictures>
+  <commonPictures>CommonPicture.ВыставлениеСчетовСчетЗавершен</commonPictures>
+  <commonPictures>CommonPicture.СвернутьПравуюПанель</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</commonPictures>
   <roles>Role.М3_ОсновнаяРоль</roles>
   <commonModules>CommonModule.М3_УправлениеФормойСервер</commonModules>
   <constants>Constant.М3_ФункциональнаяОпцияПлановаяСебестоимость</constants>
   <catalogs>Catalog.ВидыЦен</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.ВидыКонтроляДоговоровПриПроведении</enums>
   <enums>Enum.ДаНет</enums>
   <enums>Enum.ЧастотаРасчетаКурсовыхРазниц</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.СервисыДоставки</enums>
+  <enums>Enum.ТипыДенежныхСредств</enums>
+  <enums>Enum.ТипыДокументовЭДО</enums>
+  <enums>Enum.ВариантыЗавершенияЗаказа</enums>
+  <enums>Enum.ДоступныеПечатныеФормыВыставлениеСчетов</enums>
   <dataProcessors>DataProcessor.НастройкаПрограммы</dataProcessors>
 </mdclass:Configuration>

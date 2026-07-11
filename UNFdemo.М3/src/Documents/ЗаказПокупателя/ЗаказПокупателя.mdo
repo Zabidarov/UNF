@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ddfee7f-c60b-4779-b545-b623f876ab70" extendedConfigurationObject="9133d1ee-54e6-4556-8f42-a94010c0b021">
+  <producedTypes>
+    <objectType typeId="d8e61339-7ea8-4b90-a8d0-9054d3131434" valueTypeId="2b3d3319-1448-44a8-8314-3e90ff1bf09b"/>
+    <refType typeId="988b1711-bda7-45da-bccb-ea08a67b56eb" valueTypeId="f86fb3a0-67e1-4da1-b273-3650d3a95880"/>
+    <selectionType typeId="032104c8-277e-4629-aa49-05c6f85286b4" valueTypeId="9ec833bb-f293-4b1f-ae4d-64af5e56390b"/>
+    <listType typeId="b8685002-134e-4f0c-b8e6-b1138c437319" valueTypeId="232bb88b-ae1e-4efa-845a-83c9db56c04d"/>
+    <managerType typeId="bb52eb8c-b2f1-401c-b0c5-c1c23e139303" valueTypeId="bcd7e57e-fdf8-4af1-9034-4a2a66ff6570"/>
+  </producedTypes>
+  <name>ЗаказПокупателя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="7f585333-b3e5-4c11-9c4d-56a6802e3d59" extendedConfigurationObject="ebb83fc7-27e0-4a96-8ec9-174b79894203">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="fec6a1cf-b327-4764-99c6-84b1689eacf2" extendedConfigurationObject="3827a494-db18-4d85-98ff-9376e84082d1">
+    <producedTypes>
+      <objectType typeId="262969a3-46e2-45a6-80bb-6b3257d06e2a" valueTypeId="af2aa945-c572-4aeb-a2a4-3cc3f77c3923"/>
+      <rowType typeId="6590e258-4848-4f0b-8cbe-72e6bad5a150" valueTypeId="314d9655-074f-4a62-9b81-37eb4cc62fd7"/>
+    </producedTypes>
+    <name>Запасы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="c9f6bde4-9c05-438f-906b-01044f574c64">
+      <name>М3_ПлановаяСебестоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плановая себестоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
