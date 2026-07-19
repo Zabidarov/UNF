@@ -27,7 +27,6 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.М3_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_5</interfaceCompatibilityMode>
   <languages uuid="214fdab9-4b67-4a62-80ed-149dcda36c6a" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
@@ -73,7 +72,8 @@
   <commonPictures>CommonPicture.СвернутьПравуюПанель</commonPictures>
   <commonPictures>CommonPicture.Органайзер</commonPictures>
   <commonPictures>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</commonPictures>
-  <roles>Role.М3_ОсновнаяРоль</roles>
+  <roles>Role.БазовыеПраваБСП</roles>
+  <roles>Role.М3_ОтключениеКонтроляПлановойСебестомости</roles>
   <commonModules>CommonModule.М3_УправлениеФормойСервер</commonModules>
   <constants>Constant.М3_ФункциональнаяОпцияПлановаяСебестоимость</constants>
   <catalogs>Catalog.ВидыЦен</catalogs>
