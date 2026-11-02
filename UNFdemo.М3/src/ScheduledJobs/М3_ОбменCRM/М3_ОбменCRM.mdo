@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="161a070b-f48d-4471-828e-7a4c540a18a9">
+  <name>М3_ОбменCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен CRM</value>
+  </synonym>
+  <methodName>CommonModule.М3_ОбменСCRM.ПолучитьДанныеCRM</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
