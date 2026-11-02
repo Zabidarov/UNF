@@ -18,7 +18,7 @@
 Внешняя демо-CRM развернута в облаке «1С» как публичное приложение без авторизации. Расширение 1С:УНФ обращается к ее открытому HTTP-сервису.
 
 * **URL приложения CRM:** `https://1cmycloud.com`
-* **API эндпоинт для получения клиентов:** `ttps://app-180396338.1cmycloud.com/applications/demo-crm/api/connect/customers/`
+* **API эндпоинт для получения клиентов:** `https://app-180396338.1cmycloud.com/applications/demo-crm/api/connect/customers/`
 * **Тип HTTP-метода:** `GET`
 * **Формат данных:** `JSON`
 
